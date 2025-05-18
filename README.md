@@ -12,3 +12,5 @@ commit legend is simple:
 
 In case the work progress upon commit is within an abstract grey zone in between two in this legend, put both.
 Explain things in code comments so its displayed in the CLI server-side too.
+
+[how to setup workspace](documentation/environment.md)
