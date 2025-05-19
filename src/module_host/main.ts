@@ -1,7 +1,7 @@
-import { load_plugins, dispatch_event_to_plugins } from "./pluginManager";
+import { load_plugins, dispatch_event_to_plugins } from "./pluginManager.js";
 
 // index/main entry point
-async function main() {
+export default async function main() {
     await load_plugins()
 
     // test sim a chat message
